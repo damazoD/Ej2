@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/tvFolio"
+        style="@style/formatoTextViews"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/rojo"
+        android:text="@string/text_folio"/>
+    <TextView
+        android:id="@+id/tvEstado"
+        style="@style/formatoTextViews"
+        android:layout_toLeftOf="@+id/tvColorEstado"
+        android:textStyle="italic"
+        android:layout_marginRight="10dp"
+        android:text="@string/text_estado"/>
+    <TextView
+        android:id="@+id/tvColorEstado"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/tvEstado"
+        android:background="@drawable/fondo_estado"/>
+    <TextView
+        android:id="@+id/tvOperador"
+        android:layout_below="@+id/tvFolio"
+        android:layout_marginLeft="50dp"
+        style="@style/formatoTextViews"
+        android:text="@string/text_operador"/>
+    <TextView
+        android:id="@+id/tvAccion"
+        style="@style/formatoTextViews"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/tvOperador"
+        android:text="@string/text_ultima_acci_n"/>
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_below="@+id/tbDetalles"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvusuario"
+        style="@style/formatoTextViews"
+        android:text="Usuario:"/>
+    <TextView
+        android:id="@+id/tvUsuario"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/tvusuario"
+        style="@style/formatoTextViews"
+        android:text="Luis Gomez"/>
+    <TextView
+        android:id="@+id/tvruta"
+        android:layout_below="@+id/tvUsuario"
+        style="@style/formatoTextViews"
+        android:text="Ruta:"/>
+    <TextView
+        android:id="@+id/tvRuta"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/tvruta"
+        style="@style/formatoTextViews"
+        android:text=" Loreal-Centrex"/>
+
+    <TextView
+        android:id="@+id/tvpatioI"
+        android:layout_below="@+id/tvRuta"
+        style="@style/formatoTextViews"
+        android:text="Patio inicio:"/>
+    <TextView
+        android:id="@+id/tvPatioI"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/tvpatioI"
+        style="@style/formatoTextViews"
+        android:text="Pta. Cosbel"/>
+
+    <TextView
+        android:id="@+id/tvpatioF"
+        android:layout_below="@+id/tvPatioI"
+        style="@style/formatoTextViews"
+        android:text="Patio fin:"/>
+    <TextView
+        android:id="@+id/tvPatioF"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/tvpatioF"
+        style="@style/formatoTextViews"
+        android:text="Pta. Cosbel"/>
+
+    <TextView
+        android:id="@+id/tvtruck"
+        android:layout_below="@+id/tvPatioF"
+        style="@style/formatoTextViews"
+        android:text="Nombre del viaje:"/>
+    <TextView
+        android:id="@+id/tvTruck"
+        android:layout_below="@+id/tvtruck"
+        android:layout_marginLeft="50dp"
+        style="@style/formatoTextViews"
+        android:text="Eco1000"/>
+    <TextView
+        android:id="@+id/tvtrailer"
+        android:layout_below="@+id/tvTruck"
+        style="@style/formatoTextViews"
+        android:text="N° economico del remolque:"/>
+    <TextView
+        android:id="@+id/tvTrailer"
+        android:layout_below="@+id/tvtrailer"
+        android:layout_marginLeft="50dp"
+        style="@style/formatoTextViews"
+        android:text="ECO2101"/>
+    <TextView
+        android:id="@+id/tvoperador"
+        android:layout_below="@+id/tvTrailer"
+        style="@style/formatoTextViews"
+        android:text="Operador:"/>
+    <TextView
+        android:id="@+id/tvOperador"
+        android:layout_below="@+id/tvoperador"
+        android:layout_marginLeft="50dp"
+        style="@style/formatoTextViews"
+        android:text="Arturo Pozos"/>
+    <TextView
+        android:id="@+id/tvhrViaje"
+        android:layout_below="@+id/tvOperador"
+        style="@style/formatoTextViews"
+        android:text="Hr de inicio:"/>
+    <TextView
+        android:id="@+id/tvHrViaje"
+        android:layout_below="@+id/tvhrViaje"
+        style="@style/formatoTextViews"
+        android:layout_marginLeft="50dp"
+        android:text="13:03 hrs"/>
+    <TextView
+        android:id="@+id/tvfechaCreacion"
+        android:layout_below="@+id/tvHrViaje"
+        style="@style/formatoTextViews"
+        android:text="Fecha de creación:"/>
+    <TextView
+        android:id="@+id/tvFechaCreacion"
+        android:layout_below="@+id/tvfechaCreacion"
+        android:layout_marginLeft="50dp"
+        style="@style/formatoTextViews"
+        android:text="2016-05-27"/>
+    <TextView
+        android:id="@+id/tvestadoViaje"
+        android:layout_below="@+id/tvFechaCreacion"
+        style="@style/formatoTextViews"
+        android:text="Estado:"/>
+    <TextView
+        android:id="@+id/tvEstadoViaje"
+        android:layout_below="@+id/tvestadoViaje"
+        style="@style/formatoTextViews"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="En curso"/>
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@+id/tvEstadoViaje"
+        android:layout_alignBottom="@+id/tvEstadoViaje"
+        android:background="@drawable/fondo_estado"/>
+
+
+
+</RelativeLayout>

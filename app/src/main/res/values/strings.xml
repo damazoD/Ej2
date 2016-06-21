@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Prueba Pixelsoup</string>
+    <string name="text_folio">Folio:</string>
+    <string name="text_operador">Operador:</string>
+    <string name="text_ultima_acci_n">Ultima acción :</string>
+    <string name="text_estado">Estado:</string>
+    <string name="viajes">Viajes</string>
+    <string name="by_rodrigo">by Rodrigo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
